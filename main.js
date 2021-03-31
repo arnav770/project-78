@@ -1,7 +1,7 @@
 var images = ["download (4).jpg","download.jpg","download (1).jpg","download (3).jpg","download (2).jpg"];
 
 
-var names = ["family book","Father","Mother","Me","Sister"];
+var names = ["family book","Father","Mother","sister","me"];
 
 
             var i = 0;
@@ -15,6 +15,6 @@ var names = ["family book","Father","Mother","Me","Sister"];
                 }
                 var updatedImage = images[i];
                 var updatedname = names[i];
-                document.getElementById("family_member_image").src = updatedImage;
-                document.getElementById("family_member_name").innerHTML = updatedname;
+                document.getElementById("img1").src = updatedImage;
+                document.getElementById("names").innerHTML = updatedname;
             }
